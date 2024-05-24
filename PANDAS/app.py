@@ -8,6 +8,7 @@ import numpy as np
 from langchain_community.embeddings import PremAIEmbeddings
 from config import PREMAI_API_KEY
 import create_embeddings
+from langchain_core.messages import HumanMessage, SystemMessage
 
 # Imposta la chiave API come variabile d'ambiente
 os.environ["PREMAI_API_KEY"] = PREMAI_API_KEY
